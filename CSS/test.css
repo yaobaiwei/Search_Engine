@@ -1,0 +1,16 @@
+/* global */
+body { font-size: 14px; font-family: tahoma; color: #444; }
+a { color: #04c; text-decoration: none; cursor: pointer;}
+a:hover { text-decoration: underline; }
+#head { padding:3px 10px 5px 0;height:auto;}
+.u{ color: #999999; position: absolute; right: 10px; top: 4px; white-space: nowrap;  z-index: 299;font-size: 12px;}
+#s_nav {height: 45px;}
+#title { width: 160px;text-align: left;height: 45px;}
+.log { color: red;font-size: 30px;}
+#su {height:auto;    background: none repeat scroll 0 0 #E5EBF9;  margin: 0 24px 0 0;  padding: 0 0 0 15px;}
+#table {font-size: 12px;}
+.what {width:180px;text-align: left;}
+.more{width:250px;text-align: left;}
+.choice{width:auto; text-align: left;}
+#button{ margin-top: 20px;margin-left:600px;}
+#xu { background: none repeat scroll 0 0 #E5EBF9;  margin: 0 24px 0 0;  padding: 0 0 0 15px;text-align: center;}

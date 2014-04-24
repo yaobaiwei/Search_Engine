@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.ui.js"></script>
+<script type="text/javascript" src="../js/set.js"></script>
+<link rel="stylesheet" href="../CSS/test.css" type="text/css"/>
+<link rel="stylesheet" href="../CSS/jquery.ui.css" type="text/css" media="all" />
+<title>设置</title>
+</head>
+<body>
+<div class="u">
+<a class="setting" href="http://localhost/HUSTonline/HTML/search_header.html">返回首页</a>
+</div>
+<div id="head">
+<div id="s_nav">
+<div id="title"><span class="log">华中大在线</span></div>
+</div>
+</div>
+<div id="body">
+<div id="su">
+<span style="font-size:15px;"><em>搜索设置</em></span>
+</div>
+<form class="fm" action="" name="f">
+<table id="table">
+<tr id="first">
+<th class="what"><em>搜索条件</em></th>
+<td class="more">设定您所希望的搜索方式</td>
+<td class="choice">
+<input type="radio" checked="checked" name="find" value="fuzzy" />
+模糊搜索：
+<input type="radio" name="find" value="exact" />
+精确搜索：
+<input type="radio" name="find" value="title" />
+仅标题搜索：
+<input type="radio" name="find" value="body" />
+仅正文搜索：
+</td>
+</tr>
+<tr id="second">
+<th class="what"><em>搜索结果显示条数</em></th>
+<td class="more">设定您希望搜索结果显示的条数</td>
+<td class="choice">
+<select name="num">
+<option value="5">每页显示5条</option>
+<option value="10" selected="selected">每页显示10条</option>
+<option value="15">每页显示15条</option>
+<option value="20">每页显示20条</option>
+</select>
+</td>
+</tr>
+<tr id="third">
+<th class="what"><em>资源设置</em></th>
+<td class="more">操作数据库中的引索信息</td>
+<td class="choice" ><button id="delete">删除所有数据</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="add">添加新数据</button></td>
+</tr>
+</table>
+<div id="button">
+<input id="save" type="button" value="保存设置"/>
+</div>
+</form>
+<div id="xu">
+<span style="font-size:12px;"><em>(C)opyright 2012 - Hustonline search　</em></span>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.header {top: 40px ;text-align: right;padding: 4px 5px 5px 0;}
+a { color: #04c; text-decoration: none; cursor: pointer;}
+a:hover { text-decoration: underline; }
+.setting {font-size: 12px;}
+#u { margin: 0 auto; width: 720px;}
+#log {padding-top: 42px;}
+#title {text-align: center;font-size: 20px; color: red; height:110px;}
+#nv {font-size: 15px; color: #0000cc;text-align: center;position: relative;right:25px;}
+#search {    padding-left: 110px;  text-align: left;}
+.s_btn{ height: 40px;}
+.w_btn{ height: 40px;cursor: pointer;}
+#nm {font-size: 15px; color: #0000cc;text-align: center;position: relative;top:20px;}
+#lp{ height:70px;}
+#lh {font-size: 15px; color: #0000cc;text-align: center;position: relative;}
+#cp{ font-size: 10px; color:black;text-align: center;}

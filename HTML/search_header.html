@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="stylesheet" href="../CSS/search_header.css" type="text/css"/>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript">
+ $(document).ready(function(){
+    $("#s_btn").click(function(){
+       var num=document.getElementById("s_input").value.length;
+       if(num==0)
+       {
+         alert("请输入您要搜索的内容！");
+       }
+       else{
+          var value=document.getElementById("s_input").value;
+          location.href = "http://localhost/HUSTonline/HTML/search_index.html?pw="+value;//location.href实现客户端页面的跳转           
+       }
+    });
+ });
+</script>
+<title>华中大在线搜索引擎</title>
+</head>
+<body>
+<div class="header">
+<a class="setting" class="search_set" href="http://localhost/HUSTonline/HTML/set.html">搜索设置</a>
+</div>
+<div id="u">
+<div id="title"><h1 id="log">华中大在线</h1></div>
+<p id="nv">
+<a href="http://news.hustonline.net/" title="华中大新闻网" target="_blank">新闻网&nbsp;</a>
+<a href="http://focus.hustonline.net/" title="华中大视野网" target="_blank">视野网&nbsp;</a>
+<a href="http://tv.hustonline.net/" title="华中大网视" target="_blank">网视&nbsp;</a>
+<a href="http://ik.hustonline.net/" title="iKnow互动问答" target="_blank">iKnow&nbsp;</a>
+<a href="http://ershou.hustonline.net/" title="华中大二手市场" target="_blank">二手市场&nbsp;</a>
+<a href="http://duocaiii.com/" class="res_hide1" title="华中大多彩活动" target="_blank">多彩活动&nbsp;</a>
+<a href="http://miwuu.com/" class="res_hide1" title="觅物华科站" target="_blank">觅物&nbsp;</a>
+<a href="http://ixuanxiu.com/" class="res_hide" title="爱选修" target="_blank">爱选修&nbsp;</a>
+</p>
+<div id="search"  style="height:40px; overflow:hidden">
+<form action="" method="post" name="form1">
+<span id="inputbox">
+<input  id="s_input" type="text" maxlength="100" name="wd"  style="height:30px;width:440px;"/>
+</span>
+<span id="button">
+<input  id="s_btn" type="button" class="s_btn" onmouseout="this.className='w_btn'" onmousedown="this.className='s_btn'" value="Search"/>
+</span>
+</form>
+</div>
+<p id="nm">
+<a href="http://info.hustonline.net/softnew/index.aspx" title="软件下载" class="res_hide" target="_blank">软件下载&nbsp;&nbsp;&nbsp;</a>
+<a href="http://doc.hustonline.net/" title="多库文档" class="res_hide" target="_blank">多库文档&nbsp;&nbsp;&nbsp;</a>
+<a href="http://www.hustonline.net/" title="更多" class="res_hide" target="_blank">更多>>></a>
+</p>
+<p id="lp">&nbsp;</p>
+<p id="lh">
+<a href="http://www.hustonline.net/#notice" title="关注" class="res_hide" target="_blank">关注&nbsp;&nbsp;|</a>
+<a href="http://www.hustonline.net/#circle" title="圈子" class="res_hide" target="_blank">&nbsp;圈子&nbsp;|</a>
+<a href="http://www.hustonline.net/#study" title="学霸" class="res_hide" target="_blank">&nbsp;学霸&nbsp;|</a>
+<a href="http://www.hustonline.net/#person" title="人物" class="res_hide" target="_blank">&nbsp;人物</a>
+</p>
+<p id="cp">(C)opyright 2012 - Hustonline search </p>
+</div>
+</body>
+</html>
